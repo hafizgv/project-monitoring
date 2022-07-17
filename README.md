@@ -1,7 +1,6 @@
 # project-monitoring
 Ini merupakan tugas yang bertujuan untuk memenuhi Soal tes internship project YAYASAN HASNUR CENTRE divisi WEB DEVELOPER DIGITALIZ.
-Front-End : Bootstrap
-Back-End : PHP Native
+Front-End : Bootstrap, Back-End : PHP Native
 
 Screenshot:
 ![home web](https://user-images.githubusercontent.com/94153431/179390098-39f91822-ee3c-450f-a8fb-4257432ba34b.png)
