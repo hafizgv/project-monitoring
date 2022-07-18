@@ -75,8 +75,14 @@ include 'header.php';
                             <img src="assets/orangkeren.jpeg" class="rounded-circle" width="35">
                         </td>
                         <td>
-                            <p style="margin-bottom:0">Bang Mullet</p>
-                            <p style="font-size:80%">abangemo@gmail.com</p>
+                            <table style="box-shadow:none;">
+                                <tr>
+                                    <th>Bang Mullet</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:80%;">abangemo@gmail.com</td>
+                                </tr>
+                            </table>
                         </td>
                         <td class="text-center">20 Mei 2015</td>
                         <td class="text-center">21 Januari 2060</td>
