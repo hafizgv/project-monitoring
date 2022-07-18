@@ -11,6 +11,7 @@ $id = $data['id'];
 $project = $data['project_name'];
 $client = $data['client'];
 $foto = $data['foto'];
+$email = $data['email'];
 $nama = $data['name'];
 $mulai = $data['start_at'];
 $akhir = $data['finish_at'];
@@ -19,8 +20,8 @@ $akhir = $data['finish_at'];
 <head>
     <title>Edit Project</title>
 </head>
-<body class="bg-info" style="height: 700px;">
-    <div class="container body-utama" style="height: 700px;">
+<body class="bg-info" style="height: 47vw;">
+    <div class="container body-utama" style="height: 47vw;">
         <form action="simpanUpdate.php" method="post">
         <h4 class="text-center pb-2" style="font-weight:bold; font-family:'Open Sans';">Edit Project</h1>
             <table class="table table-borderless bg-light w-75 mx-auto" style="border-radius: 20px; padding: 2rem;">
@@ -40,6 +41,11 @@ $akhir = $data['finish_at'];
                         <td>:</td>
                         <td colspan="2"><input type="file" name="foto" id="fileToUpload">
                             <input type="submit" value="Upload Image" name="submit"></td>
+                    </tr>
+                    <tr>
+                        <td >Email</td>
+                        <td>:</td>
+                        <td colspan="2"><input type="email" name="email" value="<?php echo $email?>" style="width:100%;"></td>
                     </tr>
                     <tr>
                         <td >Nama</td>
