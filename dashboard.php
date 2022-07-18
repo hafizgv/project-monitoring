@@ -8,10 +8,10 @@ include 'header.php';
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="bg-info" style="height: 700px;">
-        <div class="container body-utama" style= "height:700px;">
+    <div class="bg-info" style="height: 47vw;">
+        <div class="body-utama mx-auto px-4" style= "height:47vw;width:95%;">
             <h4 class="text-center pb-2" style="font-weight:bold; font-family:'Open Sans';">Project Monitoring</h1>
-            <table class="table table-borderless table-light">
+            <table class="table table-borderless table-light" style="border-radius: 20px;">
                 <thead>
                     <tr class="table-secondary text-uppercase text-center table-header">
                         <th scope="col">Project Name</th>
@@ -39,7 +39,14 @@ include 'header.php';
                             echo '<img src="data:image/jpeg;base64,'.base64_encode( $img ).'" class="rounded-circle" width=35 height=35>
                         </td>';
                         echo '<td>
-                            <p class="">'.$project['name'].'</p>
+                                <table style="box-shadow:none;">
+                                    <tr>
+                                        <th>'.$project['name'].'</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-size:80%;">'.$project['email'].'</td>
+                                    </tr>
+                                </table>
                         </td>';
                         echo '<td class="text-center">';echo $d_start;echo '</td>';
                         echo '<td class="text-center">';echo $d_end;echo '</td>';
@@ -68,7 +75,8 @@ include 'header.php';
                             <img src="assets/orangkeren.jpeg" class="rounded-circle" width="35">
                         </td>
                         <td>
-                            <p class="">Bang Mullet</p>
+                            <p style="margin-bottom:0">Bang Mullet</p>
+                            <p style="font-size:80%">abangemo@gmail.com</p>
                         </td>
                         <td class="text-center">20 Mei 2015</td>
                         <td class="text-center">21 Januari 2060</td>
