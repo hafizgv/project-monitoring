@@ -17,7 +17,7 @@ include_once("connect.php");
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i">
 </head>
 <footer>
-    <div class="card-footer bg-dark text-white text-center py-3" style="height: 70px; position: relative; width: 100%;">
+    <div class="card-footer bg-dark text-white text-center py-3" style="height: 70px;">
         <h5 style="font-size: 15px;">Copyright &#169; Hafiz 2022</h5>
     </div>
 </footer>
