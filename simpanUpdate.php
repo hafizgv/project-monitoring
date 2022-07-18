@@ -6,11 +6,12 @@ if(isset($_POST['submit'])){
     $project = $_POST['project'];
     $client = $_POST['client'];
     $foto = $_POST['foto'];
+    $email = $_POST['email'];
     $nama = $_POST['nama'];
     $mulai = $_POST['tgl_mulai'];
     $akhir = $_POST['tgl_akhir'];
     
-    $query = mysqli_query($conn, "UPDATE project_manage SET project_name='$project', client='$client', foto='$foto', name='$nama', start_at='$mulai', finish_at='$akhir' WHERE id='$id'");
+    $query = mysqli_query($conn, "UPDATE project_manage SET project_name='$project', client='$client', foto='$foto', email='$email', name='$nama', start_at='$mulai', finish_at='$akhir' WHERE id='$id'");
     
     if($query){
         header ("location:dashboard.php");
