@@ -18,7 +18,7 @@
     <header class="px-1 py-1 nav navbar bg-dark text-white header">
         <div class="container d-flex flex-wrap">
             <div class="navbar d-flex">
-                <a class="navbar-brand text-decoration-none align-items-center text-white" href="#">Logo</a>
+                <a class="navbar-brand text-decoration-none align-items-center text-white" href="index.php">Logo</a>
             </div>
             <ul class="nav my-2 justify-content-center align-items-center my-md-0 small-text">
                 <li>
